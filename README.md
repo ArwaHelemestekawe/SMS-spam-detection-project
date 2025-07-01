@@ -1,3 +1,6 @@
+
+
+```markdown
 # 📩 Spam Detection App
 
 A simple and interactive web app for detecting spam in SMS or email messages using natural language processing (NLP) and machine learning.
@@ -6,6 +9,7 @@ A simple and interactive web app for detecting spam in SMS or email messages usi
 
 - Classifies messages as **Spam** or **Not Spam**
 - Shows prediction **probability** using `predict_proba`
+- Allows **custom threshold** tuning for decision boundaries
 - Built with **Streamlit** for a clean, user-friendly UI
 - Uses **NLTK** for advanced text preprocessing
 
@@ -14,6 +18,8 @@ A simple and interactive web app for detecting spam in SMS or email messages usi
 
 - `Multinomial Naive Bayes`: excellent at detecting messages with clear spam keywords
 - `ExtraTreesClassifier`: more balanced across precision and recall
+
+
 ## 🔧 Tech Stack
 
 - **Python 3.10+**
@@ -41,3 +47,38 @@ A simple and interactive web app for detecting spam in SMS or email messages usi
    ```bash
    git clone https://github.com/your-username/spam-detector-app.git
    cd spam-detector-app
+   ```
+
+2. Install requirements  
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Launch Streamlit app  
+   ```bash
+   streamlit run app.py
+   ```
+
+4. Make predictions right from your browser 🎉
+
+## 📁 File Structure
+
+```
+├── app.py                  # Streamlit app code
+├── model.pickle            # Saved ML model
+├── tf.pickle               # Saved vectorizer
+├── requirements.txt        # Python dependencies
+└── README.md               # Project overview
+```
+
+## 🙋‍♀️ About the Developer
+
+Built with care by **Arwa AL_Hashem**
+
+## 📃 License
+
+This project is open-source and free to use under the [MIT License](LICENSE).
+```
+
+---
+

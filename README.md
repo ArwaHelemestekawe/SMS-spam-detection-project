@@ -1,6 +1,4 @@
 
-
-```markdown
 # 📩 Spam Detection App
 
 A simple and interactive web app for detecting spam in SMS or email messages using natural language processing (NLP) and machine learning.

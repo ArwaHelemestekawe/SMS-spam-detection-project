@@ -42,8 +42,9 @@ tf_text=tf.transform([transformed_text])
 result=model.predict(tf_text)[0]
 probability=model.predict_proba(tf_text)
 if st.button("predict"):
-  st.header(probability)
-  
+  st.header(f"percentage of spam :{round(probability[0][1]*100,2)}%")
+  st.header(f"percentage of not spam :{round(probability[0][0]*100,2)}%")
+
   if probability[0][1]>=0.40:
       st.header("spam")
      

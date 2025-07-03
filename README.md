@@ -1,3 +1,7 @@
+## 🎬 Demo Video
+
+[![Watch the Demo](https://img.youtube.com/vi/hYiA8QJ77Yk/maxresdefault.jpg)](https://www.youtube.com/watch?v=hYiA8QJ77Yk)
+
 
 # 📩 Spam Detection App
 

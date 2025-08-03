@@ -3,11 +3,11 @@
 [![Watch the Demo](https://img.youtube.com/vi/hYiA8QJ77Yk/maxresdefault.jpg)](https://www.youtube.com/watch?v=hYiA8QJ77Yk)
 
 
-# 📩 Spam Detection App
+#  Spam Detection App
 
 A simple and interactive web app for detecting spam in SMS or email messages using natural language processing (NLP) and machine learning.
 
-## 🔍 Features
+##  Features
 
 - Classifies messages as **Spam** or **Not Spam**
 - Shows prediction **probability** using `predict_proba`
@@ -16,13 +16,13 @@ A simple and interactive web app for detecting spam in SMS or email messages usi
 - Uses **NLTK** for advanced text preprocessing
 
 
-## 🧠 Models Used
+##  Models Used
 
 - `Multinomial Naive Bayes`: excellent at detecting messages with clear spam keywords
 - `ExtraTreesClassifier`: more balanced across precision and recall
 
 
-## 🔧 Tech Stack
+##  Tech Stack
 
 - **Python 3.10+**
 - **Scikit-learn** – for machine learning models
@@ -30,7 +30,7 @@ A simple and interactive web app for detecting spam in SMS or email messages usi
 - **Streamlit** – for web deployment
 - **Pickle** – for saving vectorizer and model artifacts
 
-## 🧪 Preprocessing Steps
+##  Preprocessing Steps
 
 - Lowercasing input text
 - Tokenization using `nltk.word_tokenize`
@@ -38,12 +38,12 @@ A simple and interactive web app for detecting spam in SMS or email messages usi
 - Stemming with `PorterStemmer`
 - Vectorization via `TfidfVectorizer` (with optional `max_features` tuning)
 
-## 🖼 Example Messages
+##  Example Messages
 
 - **Ham**: "Hey, are we still on for dinner?"
 - **Spam**: "WIN a FREE vacation now! Click here to claim!"
 
-## 🚀 Getting Started
+##  Getting Started
 
 1. Clone the repo  
    ```bash
@@ -63,7 +63,7 @@ A simple and interactive web app for detecting spam in SMS or email messages usi
 
 4. Make predictions right from your browser 🎉
 
-## 📁 File Structure
+##  File Structure
 
 ```
 ├── app.py                  # Streamlit app code
@@ -73,11 +73,11 @@ A simple and interactive web app for detecting spam in SMS or email messages usi
 └── README.md               # Project overview
 ```
 
-## 🙋‍♀️ About the Developer
+##  About the Developer
 
 Built with care by **Arwa AL_Hashem**
 
-## 📃 License
+##  License
 
 This project is open-source and free to use under the [MIT License](LICENSE).
 ```
